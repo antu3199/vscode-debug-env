@@ -10,3 +10,4 @@ $EXEC : ${OBJECTS}
 .PHONY : clean
 clean :
 	rm ${OBJECTS} ${EXEC}
+	rm *.d ${EXEC}
